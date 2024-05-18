@@ -1,0 +1,23 @@
+			***Numpy***
+		   !pip install numpy
+	*Array
+import numpy as np
+array = np.array(lista)
+-converte uma tudo da lista para mesmo tipo
+-calculos mais rapidos
+	np.sum()
+	np.mean()
+	np.max()/np.min()
+	np.sort()
+	np.dot()
+	np.random()
+	np.argmin()
+-estatistica
+	np.median()
+	np.percentile()
+	np.std()
+	np.var()
+-filtros
+	np.where() 
+
+	

@@ -1,0 +1,30 @@
+lista = [expressão for item in interable]
+	ex:
+	preco_produto = []
+	produtos = []
+
+	impostos = []
+	for preco in preco_produtos:
+		impostos.append(preco * 0.3)
+	print(impostos)
+	------------------------------------
+	***list comprehension***
+	impostos = [(preco * 0.3) for preco in preco_produtos]
+	print(impostos)
+	
+	lista_aux = list(zip(preco_prduto, produtos) #para juntar duas listas
+resultado = lista_aux[(preco_produto, produtos)]
+
+
+-List Comprehensions com if para "Filtar" itens:
+lista = [expressão for iten in iterable if condição]
+
+	***Functuin en iterables***
+lista = list(map(função, iterable_original)
+
+	***Lambda Expressions***
+minha_funcao = lambda parametro:expressão
+
+
+
+	
